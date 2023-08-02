@@ -16,7 +16,7 @@
 - [x] 📙&nbsp;&nbsp;Configure ESLint
 - [x] ✨&nbsp;&nbsp;Setting Reset Style
 - [x] ⚡️&nbsp;&nbsp;Setting Mixin Style
-- [x] 📍&nbsp;&nbsp;Absolute path
+- [x] 📍&nbsp;&nbsp;Absolute Path
 - [x] 📱&nbsp;&nbsp;Check Device
 - [x] 📫&nbsp;&nbsp;Page SEO
 - [ ] 🪄&nbsp;&nbsp;Theme Mode
