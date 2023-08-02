@@ -1,4 +1,4 @@
-# Nuxt 3 Awesome Starter
+# Nuxt3 Awesome Starter
 
 ![Author](https://img.shields.io/badge/Author-ryan-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
@@ -42,19 +42,19 @@
 
 ## Getting Started
 ### 1) Installation
-```
-$ git clone ryan-ahn/boilerplate-frontend-nuxt3
-$ cd boilerplate-frontend-nuxt3
-$ npm install
+```shell
+git clone ryan-ahn/boilerplate-nuxt3-vite
+cd ryan-ahn/boilerplate-nuxt3-vite
+npm install
 ```
 ### 2) Configuration VSCode
-```markdown
+```shell
 setting.json 파일을 vscode 세팅에 입력
 관련 익스텐션 전부 설치(문서 확인)
 ```
 ### 3) Run development server
-```
-$ npm run dev
+```shell
+npm run dev
 ```
 
 ## Using with Vue3 Setup
