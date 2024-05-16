@@ -48,18 +48,18 @@ export default defineNuxtConfig({
         // Icons
         {
           rel: 'shortcut icon',
-          href: './logo.png',
+          href: '/logo.png',
         },
         {
           rel: 'apple-touch-icon',
           sizes: '192X192',
-          href: './logo.png',
+          href: '/logo.png',
         },
         {
           rel: 'icon',
           type: 'image/png',
           sizes: '32X32',
-          href: './logo.png',
+          href: '/logo.png',
         },
         // Fonts
         {
@@ -70,6 +70,27 @@ export default defineNuxtConfig({
           rel: 'stylesheet',
           type: 'text/css',
           href: 'https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css',
+        },
+        // import js cdn
+        {
+          rel: 'preload',
+          href: 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js',
+          as: 'script',
+        },
+        {
+          rel: 'preload',
+          href: 'https://use.typekit.net/ysq3cep.js',
+          as: 'script',
+        },
+        {
+          rel: 'preload',
+          href: 'https://www.google.com/recaptcha/api.js',
+          as: 'script',
+        },
+        {
+          rel: 'preload',
+          href: 'https://assets-global.website-files.com/6489bb0b0efa4fc40c2cbb3f/js/webflow.3de0fe0eb.js',
+          as: 'script',
         },
       ],
     },

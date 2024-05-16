@@ -1,1 +1,1 @@
-export type TMainButtonAlias = 'A' | 'B';
+// export type TMainButtonAlias = 'A' | 'B';

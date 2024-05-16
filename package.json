@@ -4,9 +4,7 @@
   "author": {
     "name": "github.com/ryan-ahn"
   },
-  "engines": {
-    "node": "16.15.0"
-  },
+  "engines": {},
   "scripts": {
     "start": "nuxt start",
     "build": "nuxt build",
@@ -16,6 +14,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "jquery": "^3.7.1",
     "nuxt": "^3.5.2",
     "pinia": "^2.1.4"
   },
